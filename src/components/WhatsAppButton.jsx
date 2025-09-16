@@ -16,7 +16,7 @@ const WhatsAppFab = styled(Fab)(({ theme }) => ({
   },
 }));
 
-export default function WhatsAppButton({ phoneNumber = '5511947243979', message = 'Olá! Gostaria de solicitar um orçamento para meu evento.' }) {
+export default function WhatsAppButton({ phoneNumber = '551192082409', message = 'Olá! Gostaria de solicitar um orçamento para meu evento.' }) {
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

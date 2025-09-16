@@ -22,7 +22,7 @@ const Contato = () => {
   // Inicializar EmailJS
   useEffect(() => {
     // emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY); // Descomente após configurar
-    emailjs.init("YOUR_PUBLIC_KEY"); // Substitua pela sua chave pública do EmailJS
+    emailjs.init("x3PeZA1O3NK3dtotk"); // Substitua pela sua chave pública do EmailJS
   }, []);
 
   // Verificar se há um plano escolhido ao carregar o componente
@@ -153,8 +153,8 @@ const Contato = () => {
 
       // Enviar email usando EmailJS
       const result = await emailjs.send(
-        'YOUR_SERVICE_ID', // Substitua pelo seu Service ID
-        'YOUR_TEMPLATE_ID', // Substitua pelo seu Template ID
+        'service_n6ovg0o', // Substitua pelo seu Service ID
+        'template_w62eylo', // Substitua pelo seu Template ID
         templateParams
       );
 

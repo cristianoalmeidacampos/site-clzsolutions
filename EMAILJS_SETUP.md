@@ -87,7 +87,7 @@ const result = await emailjs.send(
 ### 7. Atualizar Email de Destino
 No arquivo `src/components/Contato.jsx`, linha 85:
 ```javascript
-to_email: 'seu_email@uol.com.br', // Substitua pelo seu email UOL
+to_email: 'financeiro@clzsolutions.com.br', // Substitua pelo seu email UOL
 ```
 
 ### 8. Testar
